@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tapesh Meshram | Developer Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <style>
+    * {
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
+      color: #f0f0f0;
+    }
+
+    header {
+      text-align: center;
+      padding: 3em 1em;
+      background: linear-gradient(120deg, #6a11cb 0%, #2575fc 100%);
+      color: white;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    header p {
+      font-size: 1.2em;
+      margin-top: 0.5em;
+    }
+
+    nav {
+      background-color: #111;
+      padding: 1em 0;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 999;
+    }
+
+    nav ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    nav ul li {
+      display: inline-block;
+      margin: 0 20px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #f0f0f0;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav ul li a:hover {
+      color: #00ffd5;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 3em 2em;
+      background: #1c1c1c;
+      margin-top: 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0, 255, 213, 0.1);
+    }
+
+    section h2 {
+      border-bottom: 2px solid #00ffd5;
+      padding-bottom: 0.5em;
+      margin-bottom: 1em;
+    }
+
+    #skills ul {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+      gap: 15px;
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .project {
+      background: #2a2a2a;
+      padding: 1em;
+      margin-top: 1em;
+      border-left: 4px solid #00ffd5;
+      border-radius: 8px;
+    }
+
+    footer {
+      background: #000;
+      color: #999;
+      text-align: center;
+      padding: 1.5em 1em;5
+      margin-top: 40px;
+    }
+
+    a {
+      color: #00ffd5;
+      text-decoration: none;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background: #00ffd5;
+      color: #000;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      background: #00bfa6;
+    }
+
+    @media (max-width: 600px) {
+      nav ul li {
+        display: block;
+        margin: 10px 0;
+      }
+
+      #skills ul {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Tapesh Meshram</h1>
+    <p><i class="fas fa-laptop-code"></i> Tech Enthusiast & Full-Stack Developer</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I’m Tapesh, a passionate coder who loves automation, innovation, and learning job-oriented tech. With hands-on experience in Python, C, IoT, and full-stack development, I’m focused on building smart, efficient, and scalable solutions.</p>
+    <a class="btn" href="Tapesh_Meshram_Resume.pdf" target="_blank">Download Resume</a>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML5</li>
+      <li>CSS3</li>
+      <li>JavaScript</li>
+      <li>React.js</li>
+      <li>Node.js</li>
+      <li>MongoDB</li>
+      <li>Python</li>
+      <li>C Programming</li>
+      <li>IoT</li>
+      <li>Git & GitHub</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+      <h3>Quiz Master</h3>
+      <p>A full-stack quiz platform where the admin can create quizzes and users can participate in real time. It includes automatic result calculation and session-based user tracking with visual feedback.</p>
+      <p><strong>Technologies Used:</strong> Flask, Flask-SQLAlchemy, SQLite, HTML, CSS, Jinja2, Flask-Session, Matplotlib, Datetime</p>
+    </div>
+
+    <div class="project">
+      <h3>Digital Closet Planner</h3>
+      <p>An OOP-based Java application that helps users plan and organize their digital wardrobe. Users can categorize clothes, plan outfits for occasions, get style suggestions, and manage laundry cycles using an intuitive GUI.</p>
+      <p><strong>Technologies Used:</strong> Java, OOP Concepts, Java Swing, File Handling</p>
+    </div>
+
+    <div class="project">
+      <h3>Health Monitoring App for Senior Citizens</h3>
+      <p>A simple, C-based terminal application where elderly users can choose symptoms from a menu and receive possible health issue predictions. It’s designed for accessibility and quick response.</p>
+      <p><strong>Technologies Used:</strong> C Programming, Condition-Based Logic, Menu-Driven Interface</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p><i class="fas fa-envelope"></i> Email: <a href="mailto:tapeshmeshram585@gmail.com">tapeshmeshram585@gmail.com</a></p>
+    <p><i class="fab fa-linkedin"></i> LinkedIn: <a href="https://in.linkedin.com/in/tapesh-meshram-69737628b" target="_blank">https://in.linkedin.com/in/tapesh-meshram-69737628b/a></p>
+    <p><i class="fab fa-github"></i> GitHub: <a href="https://github.com/tapeshmeshram" target="_blank">github.com/tapeshmeshram</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Tapesh Meshram • Built with ❤️ and endless curiosity</p>
+  </footer>
+
+</body>
+</html>
