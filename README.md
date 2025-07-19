@@ -13,3 +13,6 @@ The design uses modern UI/UX principles. The website is fully responsive, so it 
 Projects shown in the portfolio include “Quiz Master,” a full-stack quiz app using Flask and SQLite; “Digital Closet Planner,” a Java-based wardrobe organizer; and a “Health Monitoring App for Senior Citizens,” a C-language menu-driven tool for simple health tracking. Each project includes a description and the technologies used to build it.
 
 This project helped me improve my frontend development skills and understand responsive layout design more clearly. It also taught me how to present technical content effectively. The final output is a neat, professional-looking portfolio site that I can use for job applications or personal branding.
+
+Output:
+<img width="1919" height="1080" alt="Image" src="https://github.com/user-attachments/assets/1580edf1-e698-438a-9ded-63f4d3b15b67" />
